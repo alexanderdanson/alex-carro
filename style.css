@@ -1,0 +1,52 @@
+body {
+    background-color: #333333; /* Greyish black background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFB6C1; /* Pastel pink for the heading */
+    text-align: center;
+}
+
+.main-content, .info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-column img {
+    width: 100%;
+    max-width: 400px; /* Adjust as per your preference */
+    height: auto;
+}
+
+.links-column a {
+    display: block;
+    color: #ADD8E6; /* Light blue for links */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.info-column {
+    width: 48%;
+}
+
+.info-column h2 {
+    color: #87CEEB; /* Sky blue for H2 headings */
+}
+
+.contact-details, footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #D3D3D3; /* Light grey for the footer */
+}
