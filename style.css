@@ -28,10 +28,16 @@ h1 {
 }
 
 .links-column a {
-    display: block;
+    display: flex;
+    align-items: center;
     color: #ADD8E6; /* Light blue for links */
     margin-bottom: 10px;
     text-decoration: none;
+}
+
+.links-column i {
+    margin-right: 10px;
+    font-size: 1.5em; /* Change the size as needed */
 }
 
 .info-column {
